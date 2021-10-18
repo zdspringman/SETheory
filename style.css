@@ -1,0 +1,46 @@
+.form{
+    position: absolute;
+    left: 32%;
+	top: 20%;
+	height: 50%;
+	width: 40%;
+	border: 25px solid blue;
+	background: white;
+	text-align: center;
+	color: blue;
+}
+body{
+	background: blue;
+}
+button{
+	margin-top: 15px;
+	background-color: blue;
+	color: white;
+}
+#left{
+	position: absolute;
+	width: 50%;
+	height: 75%;
+	border-right: 3px solid black;
+}
+#right{
+	position: absolute;
+	left: 50%;
+	width: 48%;
+	height: 75%;
+}
+table{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+#advisorForm{
+	height: 70%;
+}
