@@ -1,46 +1,55 @@
-.form{
-    position: absolute;
-    left: 32%;
-	top: 20%;
-	height: 50%;
-	width: 40%;
-	border: 25px solid blue;
-	background: white;
-	text-align: center;
-	color: blue;
-}
 body{
-	background: blue;
+	background: #025ca6;
+	overflow: hidden;
 }
-button{
+.container{
+	display:grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr 2fr 1fr;
+	justify-items: center;
+}
+.form{
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	font-size: 30px;
+	height: 150px;
+	width: 450px;
+	color: #025ca6;
+	background: white;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.plan{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	height: 400px;
+	width: 1000px;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 400px;
+}
+.info{
+	display: grid;
+	height: 200px;
+	border: 5px solid #025ca6;
+}
+.content{
 	margin-top: 15px;
-	background-color: blue;
-	color: white;
+	display: grid;
+	grid-template-rows: 1fr 1fr 4fr;
+	height: 350px;
+	justify-items: center;
 }
-#left{
-	position: absolute;
-	width: 50%;
-	height: 75%;
-	border-right: 3px solid black;
-}
-#right{
-	position: absolute;
-	left: 50%;
-	width: 48%;
-	height: 75%;
-}
-table{
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	height: 100%;
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-th, td{
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-#advisorForm{
-	height: 70%;
+.table{
+	overflow: auto;
 }

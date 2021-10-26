@@ -1,15 +1,15 @@
 <html>
 	<head>
-		<title>Login</title>
+		<title>Advisor View</title>
         <link rel="stylesheet" href="style.css">
     </head>
 	<div class="container">
 		<div class="form">
-			<label>Login</label>
+			<label>Advisor View</label>
 			<form>
-				<label>Username: </label>
+				<label>Student ID#: </label>
 				<input type="text" name="id" required></input>
-				<input type="submit" value="Log In">
+				<input type="submit" value="Go">
 			</form>
 		</div>
 	</div>
