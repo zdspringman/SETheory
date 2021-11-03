@@ -21,6 +21,9 @@
     if ($username == "bypass") {
         header("Location: advisorClasses.php");
     }
+    else {
+        echo "<script>alert('Invalid Username')</script>";
+    }
 
     
 ?>
