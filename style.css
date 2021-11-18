@@ -9,6 +9,7 @@ body{
 	justify-items: center;
 }
 .form{
+	border: 5px solid gray;
 	display: grid;
 	justify-items: center;
 	align-items: center;
@@ -23,15 +24,13 @@ body{
 	grid-row-end: 3;
 }
 .plan{
-	display:grid;
-	grid-template-columns: 1fr 1fr;
-	text-align: center;
-	height: 400px;
-	width: 1000px;
-	grid-column-start: 2;
-	grid-column-end: 3;
+	background: gray;
 	grid-row-start: 1;
-	grid-row-end: 2;
+	display:grid;
+	grid-template-columns: 1fr 4fr;
+	text-align: center;
+	height: 500px;
+	width: 1000px;
 }
 table, th, td{
 	border: 1px solid black;
@@ -39,17 +38,26 @@ table, th, td{
 	width: 400px;
 }
 .info{
+	background: white;
+	margin-left: 50px;
 	display: grid;
-	height: 200px;
+	height: 470px;
 	border: 5px solid #025ca6;
 }
 .content{
-	margin-top: 15px;
+	background: white;
 	display: grid;
 	grid-template-rows: 1fr 1fr 4fr;
 	height: 350px;
+	width: 700px;
 	justify-items: center;
+	border: 5px solid #025ca6;
 }
 .table{
 	overflow: auto;
+}
+.error{
+	color: red;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
