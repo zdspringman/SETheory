@@ -7,6 +7,15 @@
 			$pass = "password";
 			$user = "brandonharrington";
 			$database = oci_connect($user,$pass,'//csoracle.betheluniversity.edu:1521/orclpdb');
+
+			if (!$database) {
+				$e = oci_error();
+				trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+			}
+			if ($database) {
+				echo("Connection Successful!");
+			}
+			
         ?>
     </head>
 	<div class="container">
@@ -19,4 +28,4 @@
 			</form>
 		</div>
 	</div>
-</html>
+</html> 
