@@ -1,6 +1,7 @@
 body{
 	background: #025ca6;
 	overflow: hidden;
+	font-family: "Calibri"
 }
 .container{
 	display:grid;

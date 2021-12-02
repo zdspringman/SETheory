@@ -35,12 +35,10 @@
 									<th><input type="radio" id="semester1" name="semester" value="Semester1">Semester 1</th>
 									<th><input type="radio" id="semester2" name="semester" value="Semester2">Semester 2</th>
 								</tr>
-								<?php foreach($classes as $row): array_map("htmlentities", $row); ?>
 								<tr>
-									<td><?php echo implode("</td><td>", $row); ?></td>
+									<td>blank</td>
 									<td>blank</td>
 								</tr>
-								<?php endforeach; ?>
 								<tr>
 									<th><input type="radio" id="semester3" name="semester" value="Semester3">Semester 3</th>
 									<th><input type="radio" id="semester4" name="semester" value="Semester4">Semester 4</th>
